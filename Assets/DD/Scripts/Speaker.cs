@@ -7,7 +7,7 @@ public class Speaker : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        FindObjectOfType<AudioManager>().Play("Msuic");
+        FindObjectOfType<AudioManager>().Play("Music");
     }
 
 }
